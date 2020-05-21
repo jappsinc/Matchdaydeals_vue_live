@@ -1,0 +1,542 @@
+.landing-page .content-bg-wrap:before {
+  background-color: #00AEEF !important
+}
+
+#hellopreloader {
+  background: #00AEEF !important;
+}
+
+.bg-account {
+  background-size: cover !important;
+  background-position: center 0 !important;
+  /*background-size: 100% 300px !important;*/
+  /*background-position: center 30px !important;*/
+  height: 313px !important;
+}
+
+.fixed-sidebar-left {
+  height: auto !important;
+}
+
+.profile-section {
+  padding: 18px 0 !important;
+}
+
+/* .header {
+    background-color: #00AEEF !important;
+} */
+
+.top-links {
+  float: left;
+  width: 100%;
+  margin-top: 70px;
+  background-color: #fff;
+}
+
+.top-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-links li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.top-links li a {
+  color: #444;
+}
+
+.top-links li:hover a {
+  color: #00AEEF;
+}
+
+.main-header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-header-overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 2;
+}
+
+.space,
+
+.space-sm,
+
+.space-md,
+
+.space-lg {
+
+  display: block;
+
+  float: none;
+
+  clear: both;
+
+}
+
+
+
+.space-sm {
+
+  padding-top: 15px;
+
+}
+
+
+
+.space-md {
+
+  padding-top: 20px;
+
+}
+
+
+
+.space {
+
+  padding-top: 30px;
+
+}
+
+
+
+.space-lg {
+
+  padding-top: 50px;
+
+}
+
+
+
+.no-padding {
+
+  padding: 0 !important;
+
+}
+
+.grn {
+  background-color: #00AEEF !important;
+  color: #ffffff !important;
+  border: none;
+  padding: 15px 32px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.post {
+  padding: 0 !important;
+}
+
+.post__author {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0;
+}
+
+.comments-list .post__author {
+  padding-top: initial;
+  padding-left: initial;
+  padding-right: initial;
+  padding-bottom: initial;
+}
+
+.post p {
+  padding: 0 25px;
+}
+
+.post-additional-info {
+  border-top: none;
+  padding-top: 15px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  padding-bottom: 15px !important;
+}
+
+.post-additional-info.rec {
+  border-top: none;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.post-thumb {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.search-bar.w-search {
+  width: 300px !important;
+  min-height: 70px;
+  background-color: #d6d6d6;
+}
+
+.badge {
+  position: absolute;
+  background-color: #00AEEF;
+  color: #fff !important;
+  top: -15px;
+}
+
+.photo-body {
+  padding: 30px;
+}
+
+.upload-photo-item {
+  background-color: azure;
+}
+
+.hide {
+  display: none;
+}
+
+.tg-list {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.tg-list-item {
+  margin: 0 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tgl,
+.tgl:after,
+.tgl:before,
+.tgl *,
+.tgl *:after,
+.tgl *:before,
+.tgl+.tgl-btn {
+  box-sizing: border-box;
+}
+
+.tgl::-moz-selection,
+.tgl:after::-moz-selection,
+.tgl:before::-moz-selection,
+.tgl *::-moz-selection,
+.tgl *:after::-moz-selection,
+.tgl *:before::-moz-selection,
+.tgl+.tgl-btn::-moz-selection {
+  background: none;
+}
+
+.tgl::selection,
+.tgl:after::selection,
+.tgl:before::selection,
+.tgl *::selection,
+.tgl *:after::selection,
+.tgl *:before::selection,
+.tgl+.tgl-btn::selection {
+  background: none;
+}
+
+.tgl+.tgl-btn {
+  outline: 0;
+  display: block;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tgl+.tgl-btn:after,
+.tgl+.tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+
+.tgl+.tgl-btn:after {
+  left: 0;
+}
+
+.tgl+.tgl-btn:before {
+  display: none;
+}
+
+.tgl:checked+.tgl-btn:after {
+  left: 50%;
+}
+
+.tgl-ios+.tgl-btn {
+  background: #fbfbfb;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all .4s ease;
+  border: 1px solid #e8eae9;
+}
+
+.tgl-ios+.tgl-btn:after {
+  border-radius: 2em;
+  background: #fbfbfb;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.tgl-ios+.tgl-btn:hover:after {
+  will-change: padding;
+}
+
+.tgl-ios+.tgl-btn:active {
+  box-shadow: inset 0 0 0 2em #e8eae9;
+}
+
+.tgl-ios+.tgl-btn:active:after {
+  padding-right: .8em;
+}
+
+.tgl-ios:checked+.tgl-btn {
+  background: #00AEEF;
+}
+
+.tgl-ios:checked+.tgl-btn:active {
+  box-shadow: none;
+}
+
+.tgl-ios:checked+.tgl-btn:active:after {
+  margin-left: -.8em;
+}
+
+.tg-list-item input {
+  opacity: 0;
+}
+
+.checkBoxCont {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  /* font-size: 15px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkBoxCont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: solid 1px #999;
+}
+
+/* On mouse-over, add a grey background color */
+.checkBoxCont:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkBoxCont input:checked~.checkmark {
+  background-color: #00AEEF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkBoxCont input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkBoxCont .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkBoxCont input:checked {
+  border: none;
+}
+
+.population {
+  width: 100%;
+  padding: 10px 30px;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.population .versus-img img {
+  width: 66px;
+    max-height: 70px;
+}
+
+.population .versus {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.population .caption {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.population .caption .badge {
+  margin-top: 20px;
+}
+
+.population .selected {
+  border: solid 1px #00AEEF;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+}
+
+@media(max-width:790px) {
+  .sidebyside {
+    position: relative !important;
+    float: left;
+    width: 100% !important;
+  }
+  .edit-my-poll-popup .head-content {
+      color: #fff;
+      float: left;
+      width: 100% !important;
+  }
+}
+
+.sidebyside {
+  width: 50%;
+  position: absolute;
+  right: 0;
+    top: 0;
+}
+
+.sidebyside img {
+  width: 90px;
+    max-height: 90px;
+  float: left;
+}
+
+.sidebyside h4 {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px 20px;
+}
+
+#previewImage {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  border: dashed 2px #00AEEF;
+  border-radius: 3;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.liked {
+  background-color: #00AEEF !important;
+}
+
+.comments-list {
+  margin-bottom: 0;
+  overflow: auto;
+  max-height: 400px;
+}
+.header-spacer {
+  height: 70px !important;
+}
+.bg-mdd {
+  background-color:#00AEEF;
+}
+.deals.post {
+    padding: 30px !important;
+}
+.deals .user-description {
+    padding: 25px !important;
+}
+.btn-rounded {
+  border-radius: 20px;
+}
+.author-date {
+  position: relative;
+}
+.post_tooltip {
+  position: absolute;
+  top: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #fafbfd;
+  border-radius: 4px;
+  left: 0;
+  z-index: 5;
+  box-shadow: 0 8px 20px rgba(0,0,0,.4);
+}
+.post_header {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.mxh-125 img {
+    max-height: 125px !important;
+}
+.fixed-bar {
+    display: block !important;
+}
+.colored {
+  color: #00b7ff !important;
+}
+.cover-story {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,.5);
+  z-index: 3;
+  display: none;
+}
+.ui-block {
+  position: relative !important;
+}
+img.preview-img {
+  max-width: 100% !important;
+  height: 100% !important;
+}
